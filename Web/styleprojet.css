@@ -1,0 +1,278 @@
+#box1{
+	position:relative;
+	left:400px;
+	border: 1px solid black;
+	border-radius: 7px;
+	background-color: #57F286;
+	padding: 30px;
+	margin: 20px;
+	width: 420px;
+	height: 180px;
+}
+
+#box2{
+	display:table-cell;
+	position:relative;
+	left:150px;
+	padding: 15px;
+    width: 220px;
+	height: 180px;
+}
+
+#box3{
+	position:relative;
+	left:280px;
+	border: 1px solid black;
+	border-radius: 7px;
+	background-color: #57F286;
+	padding: 30px;
+	margin: 20px;
+	width: 720px;
+	height: 520px;
+}
+
+#box4{
+	position:relative;
+	left: 25%;
+	background-color: #57F286;
+	width: 320px;
+	height: 180px;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+#box5{
+	margin-top:3%;
+	position:relative;
+	left: 25%;
+	background-color: whitesmoke;
+	width: 700px;
+	height: 500px;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+#box5 table{
+	margin-right:30%;
+	position: static;
+	right:45%;
+}
+
+#description{
+	margin-top:3px;
+	margin-left:35px;
+	background-color: white;
+	padding: 3px;
+	width: 650px;
+	height: 240px;
+	border: 1px solid black;
+	border-radius: 1px;
+}
+#description p{
+	color:black;
+	font-family: "Georgia", serif;
+	font-style:italic;
+	font-size:14pt;
+}
+
+
+#description li{
+	position: relative;
+	font-style:italic;
+	font-size:12pt;
+	left: 50%;
+	bottom:70%;
+  text-align: left;
+  text-decoration: none;
+  list-style-type: circle;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 0.4em;
+}
+#commande{
+	position:static;
+	margin-top: 5%;
+	border: 1px solid black;
+	border-radius: 7px;
+	background-color: #57F286;
+	padding: 30px;
+	margin: 40px;
+}
+
+#tri{
+	display: inline-grid;
+}
+#livraison{
+padding:6px;
+}
+
+div li{
+  text-align: left;
+  padding: 10px 8px;
+  text-decoration: none;
+  list-style-type: circle;
+}
+
+a{
+	text-decoration:none;
+	color:black;
+}
+
+li a:hover {
+  background-color: lightcyan;
+}
+
+body{
+	margin:auto;
+	font-family:"Georgia";
+}
+	
+nav	ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #57F286;
+}
+nav li {
+	font-family: "Georgia", serif;
+	float: left;
+   border-right:1px solid #bbb;
+}
+nav li a {
+  display: block;
+  color:#000066 ;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav li a:hover {
+  background-color: lightgreen;
+}
+
+h1, center {
+	margin-left:1%;
+	font-family: "Georgia", serif;
+	text-align:center;
+	color: #000066;
+	font-size:25pt;
+	background-attachment: fixed;
+	}
+h2{
+	margin-left:1%;
+	font-family: "Georgia", serif;
+	color: black;
+	font-size:20pt;
+	font-style:italic;
+	background-attachment: fixed;
+	}
+h3{
+	margin-left:1%;
+	font-family: "Georgia", serif;
+	color: black;
+	font-size:15pt;
+	}
+h4{	
+	margin-left:1%;
+	font-family: "Georgia", serif;
+	color: black;
+	font-size:15pt;
+	}
+	
+	
+legend{
+	font-family:"Georgia", serif;
+	color: black;
+	font-size:18pt;
+	padding-bottom: 6px;
+	font-style: italic;
+}
+
+header {
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+	border: 3px green;
+	border : thin solid green;
+	font-size:18pt;
+	}
+
+footer{
+	display:flex;
+	position: relative;
+	font-family:arial;
+	font-style:italic;
+	font-size:11pt;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: #57F286;
+	margin-top:2%;
+}
+ul{
+	list-style-type: none;
+	list-style-position: inside;
+  }
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  line-height: 0.4em;
+  }
+	
+th{
+  background-color: white;
+	font-family: "Georgia", serif;
+	color: black;
+	font-size:15pt;
+}
+td{
+	font-family: "Georgia", serif;
+	color: black;
+	font-size:13pt;
+	padding-left:8px;
+	padding-right:8px;
+}
+
+table{
+	margin-left:auto;
+	margin-right:1%;
+	margin-bottom: 1%;
+}
+
+table, td{
+	border: thin solid black;
+	border-radius:10px;
+	background-color: #63F288;
+	border-collapse: separate;
+}
+.buttonAchat{
+	position: relative;
+	margin: 5px;
+	left: 260px;
+	width:150px;
+	height:30px;
+}
+.buttonLivre{
+	margin: 3px;
+	width: 90px;
+}
+.buttonValider{
+	position: relative;
+	margin: 5px;
+	left: 260px;
+	width:150px;
+	height:30px;
+}
+.boutondeco{
+position:relative;
+left:19%;
+}
+.row{
+	margin: 0.5em 1em;
+}
+
+.row label{
+	display: inline-block;
+	width: 150px;
+}
+
+.wrap_res{
+	margin: 2em;
+}
+	
