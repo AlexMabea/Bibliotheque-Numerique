@@ -1,0 +1,14 @@
+DROP SEQUENCE editeur_sequence;
+DROP SEQUENCE auteur_sequence;
+DROP SEQUENCE livres_sequence;
+DROP SEQUENCE employe_sequence;
+DROP SEQUENCE client_sequence;
+DROP SEQUENCE stock_sequence;
+DROP TABLE livres CASCADE;
+DROP TABLE editeur CASCADE;
+DROP TABLE auteur CASCADE;
+DROP TABLE client CASCADE;
+DROP TABLE employe_liberama CASCADE;
+DROP TABLE commande CASCADE;
+DROP TABLE magasin CASCADE;
+DROP TABLE stock CASCADE;
